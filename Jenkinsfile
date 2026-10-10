@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('Compile Java Application') {
             steps {
                 sh 'javac Main.java'
             }
